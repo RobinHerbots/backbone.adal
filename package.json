@@ -1,0 +1,34 @@
+{
+  "name": "backbone.adal",
+  "version": "0.0.1",
+  "description": "Active Directory Authentication Library (ADAL) for Backbone",
+  "main": "./lib/backbone.adal.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RobinHerbots/backbone.adal.git"
+  },
+  "keywords": [
+    "AAD",
+    "azure-active-directory",
+    "adal",
+    "authentication",
+    "backbonejs"
+  ],
+  "author": "Robin Herbots",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/RobinHerbots/backbone.adal/issues"
+  },
+  "homepage": "https://github.com/RobinHerbots/backbone.adal#readme",
+  "dependencies": {
+    "adal-angular": "^1.0.14",
+    "backbone": "^1.3.3",
+    "jquery": "^3.2.1"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.24.1"
+  }
+}
