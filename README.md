@@ -27,7 +27,8 @@ let mainRouting = Backbone.AdalRouter.extend({
         ],
         endpoints: {
             ...
-        }
+        },
+        extraQueryParameter: "scope=openid,profile,email"
     },
     //extra before routing
     before: function (params, next) { return next(); },
