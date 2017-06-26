@@ -3,7 +3,7 @@ Active Directory Authentication Library (ADAL) for Backbone
 
 ## Install
 
-    $ npm install backbone.adal --save-dev
+    $ npm install backbone.adal --save
 
 ## Usage
 
