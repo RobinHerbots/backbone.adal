@@ -1,6 +1,6 @@
 {
   "name": "backbone.adal",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "description": "Active Directory Authentication Library (ADAL) for Backbone",
   "main": "./lib/backbone.adal.js",
   "scripts": {
@@ -24,11 +24,11 @@
   },
   "homepage": "https://github.com/RobinHerbots/backbone.adal#readme",
   "dependencies": {
-    "adal-angular": "^1.0.14",
+    "adal-angular": "^1.0.15",
     "backbone": "^1.3.3",
     "jquery": "^3.2.1"
   },
   "devDependencies": {
-    "babel-cli": "^6.24.1"
+    "babel-cli": "^6.26.0"
   }
 }
