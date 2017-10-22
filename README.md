@@ -20,7 +20,7 @@ let mainRouting = Backbone.AdalRouter.extend({
         tenant: AzureAd.TenantId,
         clientId: AzureAd.ClientId,
         postLogoutRedirectUri: postLogoutRedirectUri,
-        redirectUri: window.location.origin,
+        redirectUri: window.location.href,
         //cacheLocation: 'localStorage', // enable this for IE, as sessionStorage does not work for localhost.
         anonymousEndpoints: [
             ...
